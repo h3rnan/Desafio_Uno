@@ -55,7 +55,7 @@ public interface FechasApi {
         produces = { "application/json" }, 
         consumes = { "application/json" },
         method = RequestMethod.POST)
-    default ResponseEntity<PeriodoSolucion> getFechas(@ApiParam(value = "Periodo con lista de fechas" ,required=true )  @Valid @RequestBody Periodo periodo) {
+    default ResponseEntity<PeriodoSolucion> getFechas(@ApiParam(value = "Periodo con lista de fechas"  )  @Valid @RequestBody Periodo periodo) {
         if(getObjectMapper().isPresent() && getAcceptHeader().isPresent()) {
             if (getAcceptHeader().get().contains("application/json")) {
                 try {

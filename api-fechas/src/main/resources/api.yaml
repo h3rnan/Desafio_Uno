@@ -36,7 +36,6 @@ paths:
         - in: body
           name: periodo
           description: Periodo con lista de fechas
-          required: true
           schema:
             $ref: '#/definitions/Periodo'
       responses:

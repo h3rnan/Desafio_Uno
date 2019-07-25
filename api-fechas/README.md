@@ -1,5 +1,5 @@
 # Api Solución Desafío Previred
-La solución se ha generado con la herramienta [swagger-codegen](https://github.com/swagger-api/swagger-codegen) bajo el plugin de maven.
+La solución obedece al [desafío de previred](https://github.com/previred/Desafio_Uno), este proyecto se ha generado con la herramienta [swagger-codegen](https://github.com/swagger-api/swagger-codegen) bajo el plugin de maven.
 
 ### Requerimientos De Programación
 - Java 8

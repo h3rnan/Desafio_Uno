@@ -1,0 +1,15 @@
+{
+  "groupId"         : "com.previred.periodos",
+  "artifactId"      : "api-fechas",
+  "artifactVersion" : "1.0.0",
+  "artifactDescription" : "Micro servicio: Solución de periodos",
+  "developerName"   : "Hernan Aja",
+  "developerEmail"  : "ajamask@gmail.com",
+  "invokerPackage"  : "com.previred.periodos.fechas",
+  "apiPackage"      : "com.previred.periodos.fechas.api",
+  "modelPackage"    : "com.previred.periodos.fechas.model",
+  "configPackage"   : "com.previred.periodos.fechas.config",
+  "hideGenerationTimestamp": true,
+  "dateLibrary": "java8",
+  "java8": true
+}

@@ -24,3 +24,5 @@
 
 pom.xml
 **/application.properties
+src/main/java/com/previred/periodos/fechas/api/FechasApiController.java
+src/main/java/com/previred/periodos/fechas/Swagger2SpringBoot.java

@@ -46,8 +46,9 @@ public class FechaService {
                 LocalDate last = diferencia.getProcessed().isEmpty() ? null :
                         diferencia.getProcessed().get(diferencia.getProcessed().size() - 1);
                 if (last != null) {
-                    while (last.isBefore(localDate)) {
-                        diferencia.getMissing().add(last.plusMonths(1));
+                    while (last.plusMonths(1).isBefore(localDate)) {
+                        last = last.plusMonths(1);
+                        diferencia.getMissing().add(last);
                     }
                 }
                 diferencia.getProcessed().add(localDate);
